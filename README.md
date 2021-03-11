@@ -2,6 +2,7 @@
 
 - using the streamlit framework to create a web application 
 - view application (when running) at: http://192.168.81.130:8501
+![sc](https://user-images.githubusercontent.com/74196907/110850488-bf908180-82a7-11eb-942c-2b04b9091d69.png)
 
 ## Setting up the environment:
 ```
