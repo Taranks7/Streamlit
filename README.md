@@ -1,4 +1,4 @@
-# Stock closing prices of S&P500 companies 
+ # Stock closing prices of S&P 500 companies 
 
 - using the streamlit framework to create a web application 
 - view application (when running) at: http://192.168.81.130:8501
