@@ -67,12 +67,13 @@ def price_plot(symbol):
   df = pd.DataFrame(data[symbol].Close)
   df['Date'] = df.index
   plt.fill_between(df.Date, df.Close, color='skyblue', alpha=0.3)
+  fig, ax = plt.subplots()
   plt.plot(df.Date, df.Close, color='skyblue', alpha=0.8)
   plt.xticks(rotation=90)
   plt.title(symbol, fontweight='bold')
   plt.xlabel('Date', fontweight='bold')
   plt.ylabel('Closing Price', fontweight='bold')
-  return st.pyplot()
+  return st.pyplot(fig)
 
 num_company = st.sidebar.slider('Number of Companies', 1, 5)
 
