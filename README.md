@@ -9,7 +9,7 @@ cd stockprice_webscrape
 # virtualenv venv -p python3
 source venv/bin/activate
 ```
-- The data are presumed to be at ~/Audio-visual_similarity
+- The data are presumed to be at ~/stockprice_webscrape
 - Install dependencies: pip install -r requirements.txt
 
 ## Run 
