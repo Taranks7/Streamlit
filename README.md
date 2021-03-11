@@ -1,7 +1,7 @@
 # Stock closing prices of S&P500 companies 
 
 - using the streamlit framework to create a web application 
-- view application: http://192.168.81.130:8501
+- view application (when running) at: http://192.168.81.130:8501
 
 ## Setting up the environment:
 ```
