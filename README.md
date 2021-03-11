@@ -14,5 +14,5 @@ source venv/bin/activate
 
 ## Run 
 ```
-python3 sp500.py
+streamlit run sp500.py
 ```
